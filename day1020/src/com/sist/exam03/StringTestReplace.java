@@ -15,6 +15,4 @@ public class StringTestReplace {
 		 System.out.println(data);
 	 
 	}
-	
-	
 }

@@ -8,9 +8,8 @@ public class StringTestSplit {
 		// TODO Auto-generated method stub
 
 		String data = "홍길동/20/서울/010-1234-5678";
-		String []arr = data.split("/"); // /로 분리한 것을 배열로 반환 
-		
-		for(int i=0; i<arr.length;i++) {
+		String []arr = data.split("/");
+		for(int i=0 ; i<arr.length;i++) {
 			System.out.println(arr[i]);
 		}
 		
@@ -20,6 +19,7 @@ public class StringTestSplit {
 			String str =st.nextToken();
 			System.out.println(str);
 		}
+		
 	}
 	
 	

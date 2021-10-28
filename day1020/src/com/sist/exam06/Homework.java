@@ -32,7 +32,7 @@ public class Homework {
 		int []lastDate= {31,28,31,30,31,30,31,31,30,31,30,31};
 		
 		int month = today.get(GregorianCalendar.MONTH);
-		for(int i =1 ; i<=  lastDate[month] ;i++) {
+		for(int i =1 ; i<= ( lastDate[month])+1;i++) {
 			System.out.print(i+"\t");
 			if(  (i+day-1)  %7==0 ){
 				System.out.println();
